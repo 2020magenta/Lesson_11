@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic&display=swap");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	height: 100%;
+	width: 100%;
+	padding: 80px;
+	font-size: 20px;
+	color: #000;
+	background: rgb(244, 190, 238);
+	background: -moz-linear-gradient(-45deg, rgba(244, 190, 238, 1) 1%, rgba(177, 226, 219, 1) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(244, 190, 238, 1) 1%, rgba(177, 226, 219, 1) 100%);
+	background: linear-gradient(135deg, rgba(244, 190, 238, 1) 1%, rgba(177, 226, 219, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4beee', endColorstr='#b1e2db',GradientType=1 );
+}
+/*--------------------------*/
+.header__menu {
+	width: 100%;
+	padding: 10px;
+	background-color: #fff;
+	margin-bottom: 40px;
+	text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.404);
+}
+.menu__title {
+	font-size: 24px;
+	color: #10375c;
+	font-family: Playfair Display;
+	font-weight: 700;
+}
+.menu__list {
+	text-transform: capitalize;
+}
+/*---------------------------*/
+.main__title {
+	width: 100%;
+	padding: 10px;
+	background-color: #fff;
+	margin-bottom: 40px;
+}
+.tiny {
+	width: 100%;
+	position: relative;
+	filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.342));
+}
+
+.tiny__line {
+	width: 73px;
+	height: 2px;
+	background: #222831;
+	position: absolute;
+	left: 110px;
+	bottom: 10px;
+}
+.primary{
+	filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.342));
+}
+.primary__title span {
+	color: red;
+	tw;
+}
+.primary__title {
+	font-weight: 700;
+}
+/*----------------------------*/
+.main__content{
+	width: 100%;
+	padding: 10px;
+	background-color: #fff;
+	margin-bottom: 40px;	
+}
+.content-use__logo img{
+	height: 20px;
+	margin: 0 15px 0 0 ;
+}
+.main__news{
+	width: 100%;
+	padding: 10px;
+	background-color: #fff;
+	margin-bottom: 40px;	
+}
+.advantage{
+	background-color: #10375cee;
+	color: #fff;
+}
+.pretitle__line{
+	display: inline-block;
+	width: 73px;
+	height: 2px;
+	background-color: #fff;
+}
